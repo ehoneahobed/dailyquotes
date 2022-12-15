@@ -29,7 +29,7 @@ const getQuote = async () => {
     quote_author.innerHTML = author;
 
     //  tweet the quote
-    tweetButton.href="https://twitter.com/intent/tweet?text=Quote%20of%20the%20day!%0A"+quote+" - "+author+"%0ASource: https://blog.ehoneahobed.com";
+    tweetButton.href="https://twitter.com/intent/tweet?text=Quote%20of%20the%20day!%0A"+quote+" - "+author+"%0ASource: https://soft-fox-c54221.netlify.app/";
 }
 
 
