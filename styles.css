@@ -62,9 +62,9 @@ main {
     /* font-family: 'Arial Narrow', Arial, sans-serif; */
 }
 
-.quote__top-author {
+/* .quote__top-author {
     
-}
+} */
 
 .quote__bottom {
     display: flex;
@@ -101,4 +101,29 @@ main {
 
 .copyright a:hover {
     color: aquamarine;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 900px){
+    .quote {
+        min-width: 80vw;
+    }
+
+    .quote__bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quote__bottom-newquote {
+        margin-top: 1rem;
+    }
+
+    .copyright {
+        text-align: center;
+        width: 50vw;
+        margin-bottom: 2rem;
+    }
 }
