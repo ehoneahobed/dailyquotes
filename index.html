@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes-Gen by Ehoneah</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <main>
+        <article class="quote">
+            <div class="quote__top">
+                <h3 class="quote__top-h3">Quote of the Day</h3>
+                <p class="quote__top-body" id="quote"> </p>
+                <h4 class="quote__top-author"><span>- </span><span id="author"></span></h4>
+            </div>
+            <div class="quote__bottom">
+                <div class="quote__bottom-socials">
+                    <!-- share to social media icons -->
+                    <a href="https://twitter.com/intent/tweet?text=Quote%20of%20the%20day!" data-size="large" target="_blank" rel="noopener noreferrer" id="tweet"><i class="uil uil-twitter"></i> Tweet this quote</a>
+                </div>
+                <div class="quote__bottom-newquote">
+                    <!-- next quote button -->
+                    <button onclick="getQuote()">New Quote <i class="uil uil-angle-double-right"></i></button>
+                </div>
+            </div>
+        </article>
+        <p class="copyright">This is a practice project by <a href="https://ehoneahobed.com/twitter">Dr. Ehoneah Obed</a></p>
+    </main>
+
+    <!-- link to js script -->
+    
+    <script src="./main.js"></script>
+</body>
+</html>

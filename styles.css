@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --color-bg: #2596b6;
+    --color-white: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+
+main {
+    background-color: var(--color-bg);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 0.6rem;
+    width: 40vw;
+    min-height: 40vh;
+}
+
+.quote__top {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-bg);
+    text-align: center;
+}
+
+.quote__top-h3 {
+    font-size: 2rem;
+}
+
+.quote__top-body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.quote__top-body::before {
+    content: '"';
+    display: block;
+    font-size: 4rem;
+    margin-bottom: -50px;
+    text-align: left;
+    color: var(--color-bg);
+    /* font-family: 'Arial Narrow', Arial, sans-serif; */
+}
+
+.quote__top-author {
+    
+}
+
+.quote__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.quote__bottom-newquote button {
+    padding: 0.65rem 0.8rem;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    border-radius: 0.45rem;
+    box-shadow: 1 1 0.7 #222;
+    cursor: pointer;
+}
+
+.quote__bottom-socials i {
+    font-size: 1.2rem;
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 20px;
+    color: var(--color-bg);
+}
+
+.copyright {
+    padding-top: 5rem;
+    color: var(--color-white);
+}
+
+.copyright a {
+    color: rgb(219, 238, 7);
+}
+
+.copyright a:hover {
+    color: aquamarine;
+}
